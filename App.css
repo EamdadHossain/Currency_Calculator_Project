@@ -1,0 +1,91 @@
+.calculator {
+    background: rgba(0,138,230,1);
+    background: -moz-linear-gradient(top, rgba(0,138,230,1) 0%, rgba(13,190,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,138,230,1)), color-stop(100%, rgba(13,190,255,1)));
+    background: -webkit-linear-gradient(top, rgba(0,138,230,1) 0%, rgba(13,190,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,138,230,1) 0%, rgba(13,190,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,138,230,1) 0%, rgba(13,190,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,138,230,1) 0%, rgba(13,190,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ae6', endColorstr='#0dbeff', GradientType=0 );
+    border-radius: 10px;
+    max-width: 80%;
+    width:80%;
+    margin:auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins';
+  }
+  
+  .calculator h3 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .calculator .inputs {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .calculator .input-box {
+    width: 30%;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+  }
+  
+  .calculator label {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .calculator input, .calculator select {
+    width: 100%;
+    border: 0px;
+    position: relative;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .calculator input:focus, .calculator select:focus {
+    outline: none;
+  }
+  
+  .calculator input {
+    border-bottom: 2px solid white;
+  }
+  
+  .calculator button {
+    color: white;
+    background-color: rgba(225, 225, 225, 0.4);
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    width: auto;
+    font-weight: 700;
+    padding: 6px 25px;
+    margin-top: 20px;
+  }
+  
+  .calculator .result {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 3%;
+    font-size: 26px;
+  }
+  
+  .calculator .error-message {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+  }
+  
